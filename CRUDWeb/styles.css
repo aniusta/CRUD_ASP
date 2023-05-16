@@ -1,0 +1,107 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+fieldset {
+    width: 100%;
+    padding: 2rem;
+    border: none;
+}
+
+.label-control {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+.text-control {
+    width: 100%;
+    max-width: 500px;
+}
+
+.calendar-control {
+    width: 100%;
+    max-width: 300px;
+}
+
+
+.calendar-control a {
+    text-decoration: none;
+}
+
+.calendar-control a:hover{
+    background-color: #25bae5;
+}
+
+.table-control {
+    color: black;
+}
+
+.table-control th, 
+.table-control td {
+    padding: 0.5cm;
+    border-bottom: 1px solid #4b4d51;
+}
+
+.table-control th {
+    color: #000000;
+}
+
+.error {
+    border-bottom: 2px solid red;
+}
+
+.image-button {
+    width: 25px; /* Adjust the desired width */
+    height: 25px; /* Adjust the desired height */
+    margin-right: 15px;
+}
+
+
+.modalPopup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    z-index: 9999;
+    max-width: 600px;
+}
+
+.modalBackground {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9998;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.closeButton {
+    background-color: transparent;
+    border: none;
+    color: #333;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.labelpopup-control {
+    width: 100%;
+    padding: 0.25rem;
+    margin: 1rem 0;
+}
+
